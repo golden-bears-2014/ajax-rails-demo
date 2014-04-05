@@ -1,2 +1,2 @@
-$('#zoom-in').html('<%=escape_javascript render partial: 'author_name', locals: { author: @author } %>')
+$('#zoom-in').html('<%=escape_javascript render text: @author.name %>')
 
